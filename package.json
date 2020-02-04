@@ -1,0 +1,21 @@
+{
+  "name": "ciorhan.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "watch:sass": "node-sass sass/main.sass style/style.css -w",
+    "start": "npm run watch:sass"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ciorhan/ciorhan.github.io.git"
+  },
+  "keywords": [],
+  "author": "Ciorhan Florin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ciorhan/ciorhan.github.io/issues"
+  },
+  "homepage": "https://github.com/ciorhan/ciorhan.github.io#readme"
+}
