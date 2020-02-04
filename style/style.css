@@ -53,7 +53,7 @@ body {
     animation: borderScale .5 forwards;
     transition: all .5s;
     font-weight: 600;
-    font-size: 10rem;
+    font-size: 8rem;
     overflow: hidden; }
 
 .hello {
@@ -93,16 +93,17 @@ svg rect {
   font-weight: 200;
   position: relative;
   opacity: 0;
-  animation: move-to-right 1.5s cubic-bezier(0.8, 0.29, 0.45, 0.26) 3s 1 normal forwards; }
+  top: -.5rem;
+  animation: move-to-right 1s cubic-bezier(0.8, 0.29, 0.45, 0.26) 3s 1 normal forwards; }
 
 .ciorhan-florin {
-  font-size: 8rem;
+  font-size: 6.2rem;
   font-weight: 400;
-  top: 1rem;
+  top: 1.5rem;
   text-align: right;
   line-height: 1;
   position: absolute;
-  animation: move-to-left 1.5s cubic-bezier(0.8, 0.29, 0.45, 0.26) 2.5s 1 normal forwards;
+  animation: move-to-left 1.5s cubic-bezier(0.8, 0.29, 0.45, 0.26) 2.2s 1 normal forwards;
   right: -200%; }
 
 @keyframes move-to-left {
@@ -114,19 +115,18 @@ svg rect {
 @keyframes move-to-right {
   0% {
     opacity: 0;
-    right: 20px;
-    top: 0; }
+    right: 20px; }
   100% {
     opacity: 1;
-    top: -5px;
-    right: -120px; } }
+    right: -10rem; } }
 
 @keyframes draw-border {
   0% {
     stroke-dasharray: 1160;
     stroke-dashoffset: 1160; }
   100% {
-    stroke-dashoffset: 0; } }
+    stroke-dashoffset: 0;
+    stroke-dasharray: 1160; } }
 
 @keyframes toptobottom {
   0% {
